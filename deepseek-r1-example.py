@@ -1,4 +1,5 @@
-# from https://dev.to/auden/how-to-call-the-deepseek-r1-api-using-python-an-in-depth-step-by-step-guide-311o
+# https://dev.to/auden/how-to-call-the-deepseek-r1-api-using-python-an-in-depth-step-by-step-guide-311o
+# https://medium.com/@tahirbalarabe2/deepseek-r1-api-interaction-with-python-4fd4217b3b6f
 
 import requests
 from dotenv import load_dotenv
