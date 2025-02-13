@@ -3,6 +3,7 @@ import subprocess
 
 data = pd.read_csv('data/fighter_info.csv')
 input_text = f"Analyze the following fighter data: {data.head().to_dict()}"
+print("Running the model, please wait...")
 
 # Run the model using Ollama
 process = subprocess.Popen(

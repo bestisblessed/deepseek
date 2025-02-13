@@ -3,7 +3,13 @@ import subprocess
 
 csv_file_1 = 'data/fighter_info.csv'
 csv_file_2 = 'data/event_data_sherdog.csv'
-input_text = f"Analyze the following CSV files: {csv_file_1}, {csv_file_2}"
+input_text = (
+    f"Analyze the following CSV files: {csv_file_1} and {csv_file_2}. "
+    "Extract key trends, patterns, averages, outliers, and insights from each dataset. "
+    "Once your analysis is complete, use these datasets and insights to answer any questions I ask. "
+    "Please reason step by step and provide your final answer within \\boxed{...}."
+)
+# input_text = f"Analyze the following CSV files: {csv_file_1}, {csv_file_2}"
 print("Running the model, please wait...")
 
 # Run the model using Ollama
